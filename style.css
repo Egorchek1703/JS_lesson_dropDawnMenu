@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    color: green;
+    border: 2px solid green;
+}
+li:hover{
+    color: aqua;
+    border: 2px solid aqua;
+}
+.nav{
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+.menu-list{
+    position: absolute;
+    top: 99%;
+    left: 0;
+    padding: 0;
+    display: none;
+    margin: 0;
+}
+.menu-item{
+    cursor: pointer;
+}
+p{
+    margin: o;
+    width: 30px;
+}
+p:hover{
+    cursor: pointer;
+}
